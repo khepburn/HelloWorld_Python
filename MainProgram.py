@@ -9,4 +9,8 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-print("Hello Wold");
+def DimeLaFechaHora():
+    import time
+    return ("la fecha de hoy es " + time.strftime("%c"))
+
+print("Hello Wold, "+ str(DimeLaFechaHora()));

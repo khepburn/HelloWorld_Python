@@ -13,4 +13,5 @@ def DimeLaFechaHora():
     import time
     return ("la fecha de hoy es " + time.strftime("%c"))
 
-print("Hello Wold, "+ str(DimeLaFechaHora()));
+print("Hello Wold)
+print("Ciao world" + ", " + str(DimeLaFechaHora()));
